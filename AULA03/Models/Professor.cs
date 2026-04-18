@@ -5,7 +5,7 @@ namespace AULA03.Models
         public string Disciplina { get; set; }
         public decimal Salario { get; set; }
 
-        public void ExibirDadosProfessor()
+        public override void Apresentar()
         {
             Console.WriteLine($"Professor: {Nome}, Idade: {Idade}, Disciplina: {Disciplina}, Salário: {Salario:C}");
         }

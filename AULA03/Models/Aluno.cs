@@ -8,7 +8,7 @@ namespace AULA03.Models
 
         
 
-        public void ExibirDadosAluno()
+        public override void Apresentar()
         {
             Console.WriteLine($"Aluno: {Nome}, Idade: {Idade}, Matrícula: {Matricula}, Curso: {Curso} e tenho nota {Nota} ");
         }
