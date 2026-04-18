@@ -5,7 +5,8 @@ Aluno a1 = new Aluno
     Nome = "David",
     Idade = 25,
     Matricula = "2026001",
-    Curso = "Engenharia"
+    Curso = "Engenharia",
+    Nota = 10.0
 };
 
 Professor p1 = new Professor
