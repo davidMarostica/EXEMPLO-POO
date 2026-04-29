@@ -21,8 +21,18 @@ class Program
             Salario = 5000m
         };
 
+        Diretor d1 = new Diretor
+        {
+            Nome = "Maria",
+            Idade = 50,
+            Disciplina = "Administração",
+            Salario = 7000m,
+            Departamento = "Administração"
+        };
+
         // Chamadas polimórficas
         p1.Apresentar();
         a1.Apresentar();
+        d1.Apresentar(); 
     }
 }
